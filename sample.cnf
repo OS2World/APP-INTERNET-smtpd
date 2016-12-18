@@ -1,0 +1,24 @@
+#
+# Configuration file for SMTP daemon.
+# Blank lines, and lines starting with #, are treated as comments.
+#
+# Lines start with a keyword, followed by parameters separated by tabs
+# and/or spaces.
+#
+# Keywords:
+#	TRUSTED_HOST    ipaddress  mask
+#		specifies a host from which connections are allowed, using
+#		the mask before applying the check.
+#
+#	LOGGING		logtype
+#		specifies how logging is to be dome:
+#		FILE	to %ETC%\SMTPD.LOG
+#		SYSLOG	to the SYSLOG daemon
+#
+trusted_host    192.168.55.0     255.255.255.0
+logging		file
+#
+# End of configuration file for SMTP daemon.
+#
+
+
